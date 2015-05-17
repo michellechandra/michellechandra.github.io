@@ -1,0 +1,55 @@
+// custom variables and override bootstrap variables
+
+//colors
+
+
+
+
+$body-bg: #fff8ef;
+$text-color: #1d1d1b;
+$link-color: #ed1c24;
+
+
+$font-family-sans-serif: 'fanwoodregular' , Arial, Helvetica, sans-serif;
+$font-size-base: 18px;
+
+
+
+
+
+
+// iconography
+$icon-font-path: "../fonts/";
+
+
+// Navbar
+$navbar-border-radius:0;
+$navbar-default-bg:#ed1c24;
+$navbar-default-link-hover-bg:#ed1c24;
+$navbar-default-link-active-color:#fff;
+$navbar-default-link-hover-color:#fff;
+$navbar-default-link-color:#fff;
+$navbar-default-link-active-bg:#000;
+
+//buttons
+$btn-font-weight: 700;
+
+$btn-default-color: #fff;
+$btn-default-bg: #231f20;
+
+$btn-primary-color:#000;
+$btn-primary-bg:#a68e64;
+
+
+$grid-gutter-width:12px;
+$grid-columns:16;
+$container-large-desktop:(1116px + $grid-gutter-width);
+
+// nav bar
+
+$navbar-default-bg :#384c5b;
+
+
+
+
+

@@ -1,1 +1,83 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- set the encoding of your site -->
+	<meta charset="utf-8">
+	<!-- set the viewport width and initial-scale on mobile devices  -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>All Our Yesterdays: An interactive story exploring time, memory and photography</title>
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="leaflet.css" />
+</head>
+<body class="home">
+	<!-- main container of all the page elements -->
+	<div id="wrapper">
+		<div class="w1 win-height">
+			<!-- header of the page -->
+			<header id="header">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-16">
+							<!-- navigation of the page -->
+							<nav class="navbar navbar-default">
+								<div class="container-fluid">
+									<!-- Brand and toggle get grouped for better mobile display -->
+									<div class="navbar-header">
+										<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+									</div>
+
+									<!-- Collect the nav links, forms, and other content for toggling -->
+									<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+										<ul class="nav navbar-nav">
+											<li><a href="memory.html">Memory</a></li>
+											<li><a href="synchronicity.html">Synchronicity</a></li>
+											<li><a href="legacy.html">Legacy</a></li>
+										</ul>
+									</div><!-- /.navbar-collapse -->
+								</div><!-- /.container-fluid -->
+							</nav>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- contain main informative part of the site -->
+			<main id="main" role="main" class="win-height">
+				<div class="bg-stretch">
+					<div id="map"></div>
+					<!-- <img src="images/img37.jpg" height="801" width="1206" alt="image-description"> -->
+				</div>
+				<div class="w2">
+					<div class="w3">
+						<div class="text-block">
+							<h1>All Our Yesterdays </h1>
+							<p><em>"Everything exists to end in a photograph." - <a href="http://www.susansontag.com/SusanSontag/" target="_blank">Susan Sontag</a></em></p>
+							<p>Instagram users are photographing the world at a rapid pace, adding 70 million photos every day to an ever-expanding image archive.The photo data created by Instagram users allows us to connect photos that would have been previously seen as separate and isolated. Photography is now a social act that connects strangers around the world. It has become a global conversation.</p> 
+
+							<p><em>All Our Yesterdays</em> is an interactive story that explores what photography means today in our increasingly connected global world. <a href="synchronicity.html">Synchronicity</a> explores our ideas of time against the backdrop of sunset and sunrise photography. <a href="memory.html">Memory</a> compares my personal Instagram memories to the collective Instagram memory. <a href="legacy.html">Legacy</a> follows my Grandfather's travels abroad in the 50's in order to document how things have changed by comparing his photographs to present day Instagram photographs.</p>
+						</div>
+					</div>
+				</div>
+			</main>
+			<a href="credits.html" class="credits">Credits</a>
+	</div>
+	</div>
+	<!-- include jQuery library -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- include custom JavaScript -->
+	<script src="js/jquery.main.js"></script>
+	<!--  include map javascript -->
+    <script src="leaflet.js"></script>
+    <script src="torque.full.uncompressed.js"></script>
+    <script src="homemap.js"></script>
+
+</body>
+</html>
